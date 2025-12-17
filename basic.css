@@ -1,0 +1,67 @@
+/* Page basic style */
+body {
+    
+    font-family: Arial;
+    background-color: white;
+}
+
+/* Header and navigation */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+header h1 {
+    display: inline;
+}
+
+nav {
+        float: right;
+}
+
+nav a {
+    color: white;
+   
+    margin-left: 15px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+div {
+    background-color:gray;
+    color: white;
+    text-align: center;
+    padding: 60px;
+}
+
+/* Sections */
+section {
+    padding: 30px;
+    text-align: center;
+}
+
+/* Product boxes */
+section div {
+    background-color:gray;
+    width: 20%;
+    display: inline-block;
+    margin: 5px;
+    padding: 5px;
+}
+
+section div img {
+    width: 70%;
+    height: 120px;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
