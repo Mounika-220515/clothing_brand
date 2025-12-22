@@ -13,6 +13,34 @@ header
     padding: 25px;
     
 }
+.p1{
+    background-color: black;
+}
+nav
+{
+    float:right;  
+
+}
+nav a{
+    color:white;
+    margin: 5px;
+    text-decoration: none;
+    nav
+{
+    float:right;
+    color:white;
+
+}
+}
+nav a:hover{
+    text-decoration: underline;
+}
+.av
+{
+    background-color:white;
+    display: inline-block;
+    
+}
 
 div 
 {
@@ -45,15 +73,63 @@ section div img
     width: 70%;
     height: 120px;
 }
-.p1{
-    background-color: black;
-}
+
 .v1
 {
     color=white;
     width: 50%;
     height: 300px;
 }
+
+.external-table {
+    margin:auto;
+    width: 40%;
+    background-color: white;
+    text-align: center;
+}
+.external-table th, .external-table td {
+    border: 1px solid black;
+    padding: 8px;
+}
+.external-table th {
+    background-color: gray;
+}
+
+.customer{
+
+}
+.customer{
+    text-align: left;
+    margin-left: 35%;
+   
+   margin-right:300px;
+   margin-bottom: 100px;
+    padding: 10px;
+    border: 2px solid black;
+    background-color: lightgray;
+}
+}
+
+
+.customer input,.customer select,.customer textarea
+{
+    width: 15%;
+    padding:5px
+    
+}
+
+.customer input[type="radio"]
+{
+    width:20px;
+}
+.customer input[type="submit"],
+.customer input[type="reset"]
+{
+    width:12%;
+    padding:8px;
+    margin-top: 10px;
+}
+
 
 footer 
 {
@@ -64,9 +140,4 @@ footer
 }
 
 
-nav
-{
-    float:right;
-    color:white;
 
-}

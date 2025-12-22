@@ -3,9 +3,26 @@
 <head>
    
     <title>Clothing Brand</title>
+    <style>
+        .internal-table{
+            width:40%;
+            margin:auto;
+            background-color: white;
+            border-collapse: collapse;
+        }
+        .internal-table th,.internal-table td{
+            border: 1px solid black;
+            padding: 5px;
+            text-align: center;
+        }
+        .internal-table th{
+            background-color: gray;
+        }
+    </style>
+
 </head>
 
-<body>
+<>
 
     <header>
          
@@ -19,8 +36,9 @@
        <nav>
             <a href="#">Home</a>
             <a href="#">Women Collection</a>
+            <a href="#">Kid's Collection</a>
             <a href="#">About</a>
-            <a href="#">Contact</a>
+            
             
        </nav>
       
@@ -98,24 +116,162 @@
         </div>
     </section>
 
-    <section>
+
+    
+   <div class="av">
+<h4>Background Music</h4>
+<audio controls>
+        <source src="c:\Users\Bindu\Pictures\audio1.mp3">
+    </audio>
+    
+   <h4>Fashion Video</h4>
+<video width="320" height="200" controls>
+     
+     <source src="c:\Users\Bindu\Pictures\video1.mp4">
+</video>
+</div>
+<h4>youtube video</h4>
+<iframe width="560" height="315" src="https://youtu.be/qcTea5Hu9aA?si=JmjesS4QA4HzWVOi">
+    
+</iframe>
+
+
+
+
+<h4>sizes of clothes</h4>
+    <table border="1" style="width:50%";margin:"auto";text-align:"center";>
+        <tr style="background-color:tane">
+            <th>Size</th>
+            <th>Bust(inches)</th>
+            <th>Waist(inches)</th>
+            <th>Hips(inches)</th>
+        </tr>
+        <tr>
+            <td>Small</td>
+            <td>34-35</td>
+            <td>26-27</td>
+            <td>36-37</td>
+        </tr>
+        <tr>
+            <td>Medium</td>
+            <td>36-37</td>
+            <td>28-29</td>
+            <td>38-39</td>
+        </tr>
+        <tr>
+            <td>Large</td>
+            <td>38-40</td>
+            <td>30-32</td>
+            <td>40-42</td>
+        </tr>
+        <tr>
+            <td>X-Large</td>
+            <td>41-43</td>
+            <td>33-35</td>
+            <td>43-45</td>
+        </tr>
+
+</table>
+
+
+
+<section>
+    <h3>clothes prices</h3>
+    <table class="internal-table" >
+        <tr>
+            <th>Clothes Type</th>
+            <th>Price(in Rs)</th>
+        </tr>
+        <tr>
+            <td>Wastern ware</td>
+            <td>999</td>
+        </tr>
+        <tr>
+            <td>Modern ware</td>
+            <td>1299</td>
+        </tr>
+        <tr>
+            <td>Casual ware</td>
+            <td>499</td>
+        </tr>
+        <tr>
+            <td>Traditional ware</td>
+            <td>1999</td>
+        </tr>
+        <tr>
+            <td>party ware</td>
+            <td>1449</td>
+        </tr>
+        
+</table>
+
+</section>
+<section>
+    <h3>store  locations</h3>
+<table class="external-table">
+    <tr>
+        <th>city</th>
+        <th>store location</th>
+       
+    </tr>
+    <tr><td>Hyderabad</td>
+        <td>Uppal road</td></tr>
+    
+     <tr><td>Vizag</td>
+        <td>Anakapalli</td>
+     </tr>
+     <tr><td>Karnool</td>
+        <td>MG nagar</td></tr>
+        <tr>
+     <td>Guntoor</td>
+        <td>NRT</td>
+    </tr>
+</table>
+</section>
+
+ 
+    
+    <h2><center>customer details</h2></center>
+    <form class="customer">
+        <label>Full Name:</label>
+        <input type="text" placeholder="enter your name"><br><br>
+        <label >Email:</label>
+        <input type="email" placeholder="enter your email"><br><br>
+        <label >Mobile Number:</label>
+        <input type="mobile" placeholder="enter mobile number">
+        <br><br>
+        
+        <label>select category:</label>
+        <select>
+            <option>women collection</option>
+            <option>kid's collection</option>
+        </select><br><br>
+        <label>Size:</label><br>
+        <input type="radio" name="quality" id="name1">
+        <label for="name1">small</label><br>
+
+        <input type="radio" name="quality" id="name2">
+        <label for="name2">medium</label><br>
+
+        <input type="radio" name="quality" id="name3">
+        <label for="name3">large</label><br>
+
+        <input type="radio" name="quality" id="name4">
+        <label for="name4">extra-large</label>
+        <br><br>
+        <label>Address:</label><br>
+        <textarea rows="4" cols="30" placeholder="enter your address"></textarea>
+        <br><br>
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+ <section>
         <h3>Rose's Women Clothes</h3>
         <p>
             Rose's Women is a clothing brand only for women.
             We design simple, comfortable, and stylish clothes.
         </p>
-    
-
-<audio controls>
-        <source src="c:\Users\Bindu\Pictures\audio1.mp3">
-    </audio>
-    <video width="320" height="240" controls>
-        <source src="c:\Users\Bindu\Pictures\video1.mp4" type="video/mp4">
-    </video>
     </section>
-    
-    
-
     <footer>
         <p>THANK YOU</p>
     </footer>
