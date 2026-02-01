@@ -1,0 +1,61 @@
+body 
+{
+    font-family: Arial;
+    margin: 0;
+    background-color:white;
+}
+
+header 
+{
+    background-color:pink;
+    padding: 15px;
+    text-align: center;
+}
+.account-section{
+    padding:30px;
+    
+    
+}
+.account-form
+{
+    background-color: white;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    margin:auto;
+}
+
+.account-form label
+{
+    display: block;
+    font-weight: bold;
+    margin-top: 20px;
+}
+.account-form input
+{
+    width: 80%;
+    padding: 8px;
+    margin-top:5px;
+}
+.account-form input[type="submit"]
+{
+    margin-top: 15px;
+    background-color:orangered;
+    color:white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+.account-form input[type="submit"]:hover {
+    background-color: #d95c16;
+}
+
+
+ 
+
+footer {
+    background-color: lightpink;
+    color: black;
+    text-align: center;
+    padding: 12px;
+}

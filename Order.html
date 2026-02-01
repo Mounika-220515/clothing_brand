@@ -2,45 +2,87 @@
 <html>
 <head>
     <title>Place Order - Rose's Women clothes</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Order.css">
 </head>
 <body>
 
 <header>
     <h1>Rose's Women Clothes</h1>
-    <nav>
-        <a href="order.html">Order</a>
-        <a href="#">About</a>
-    </nav>
+    
 </header>
+<section class="account-section">
+    <div class="account-form">
+        <h2>Create Account</h2>
+        <form class="account-form">
+            <label>Username</label>
+            <input type="text" required><br>
+            <label>Email or Mobile number</label>
+            <input type="text" required><br>
+            <label>Password</label>
+            <input type="password" required><br>
+            <input type="submit" value="Login">
+        </form>
+        <p class="note">
+            New customer? Account will be created automatically
+        </p>
+        </div>
 
-<section class="order-section">
-    <h2>Place Your Order</h2>
 
-    <form class="customer">
-        <label>Product Name</label><br>
-        <input type="text"><br><br>
+<div class="order-section">
+    
+    <div class="product-summary">
+        <h2> Order summary</h2>
+        <div class="product-box">
+           <p><b>product:</b>traditional saree</p>
+           <p><b>price:</b>1999/-</p>
+           <p><b>delivery:</b>free delivery</p>
+        </div>
+        <div class="price-box">
+             <p><b>product:</b>1999/-</p>
+             <p>delivery fee:0/-</p>
+             <hr>
+             <p><b>total amount:1999/-</b></p>
+        </div>
+        </div>
+        
 
-        <label>Size</label><br>
-        <input type="radio" name="size"> S
-        <input type="radio" name="size"> M
-        <input type="radio" name="size"> L
-        <input type="radio" name="size"> XL
+    <form class="order-form">
+         <h2>Place Your Order</h2>
+        <label>Full Name</label>
+        <input type="text" required><br>
+        <label>Mobile number</label>
+        <input type="tel" required><br><br>
+
+       
+        <label>Size:</label><br>
+        <input type="radio" name="quality" id="name1">
+        <label for="name1">small</label><br>
+
+        <input type="radio" name="quality" id="name2">
+        <label for="name2">medium</label><br>
+
+        <input type="radio" name="quality" id="name3">
+        <label for="name3">large</label><br>
+
+        <input type="radio" name="quality" id="name4">
+        <label for="name4">extra-large</label>
         <br><br>
-
-        <label>Quantity</label><br>
+        <label>Quantity</label>
         <input type="number"><br><br>
 
-        <label>Delivery Address</label><br>
-        <textarea></textarea><br><br>
+        <label>Delivery Address</label>
+        <textarea required></textarea><br><br>
 
-        <input type="submit" value="Place Order">
+        <input type="submit" value="conform order">
         <input type="reset">
     </form>
+</div>
+</div>
 </section>
 
+
 <footer>
-    <p>Rose's Women's Fashion</p>
+    <p>Rose's Women's clothes</p>
 </footer>
 
 </body>
