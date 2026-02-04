@@ -1,30 +1,52 @@
 <?php
-$conn=new mysqli("localhost","root","","userdb");
-if(!$conn)
-    {
-    die("database Connection Failed:");
-}
-
-
-
 
 $username=$_POST['username'];
-$email=$_POST['email'];
 $password=$_POST['password'];
 
-$sql="select * from users where PASSWORD='$password'";
-$result=$conn->query($sql);
-if($result->num_rows==1){
-    $row=$result->fetch_assoc();
-    if(password_verify($password,$row['PASSWORD'])){
-        echo"login successful";
-    }
-    else{
-        echo"invalid password";
-    }
+
+$username=trim($username);
+$username=strtolower($username);
+$username=htmlspecialchars($username);
+
+
+if (strlen($username)<5) 
+    {
+    die("Username too short");
 }
-else{
-    echo"no user found";
+
+if (strlen($password)<6) 
+    {
+    die("Password too short");
 }
-$conn->close();
- ?>
+
+
+$stored_username = "mounika";
+$stored_password = "mounika123"; 
+
+
+if (strcmp($username, $stored_username) === 0) {
+
+    if (strcmp($password, $stored_password) === 0) {
+        echo "Welcome " . ucfirst($username);
+    } else {
+        echo "Invalid password";
+    }
+
+} else {
+    echo "User not found";
+}
+?>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
