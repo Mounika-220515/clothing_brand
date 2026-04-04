@@ -1,225 +1,129 @@
 
+
+
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
 }
-body 
-{
-    
-    margin: 0;
-    background-color: white;
-    font-family: Arial;
+
+body{
+    margin:0;
+    background-color:white;
+    font-family:Arial, sans-serif;
 }
 
 html{
-    scroll-behavior: smooth;
+    scroll-behavior:smooth;
 }
 
 header{
-    background-color: black;
-    color: white;
-    padding: 25px; 
-    position: sticky;
-    background: linear-gradient(to right,black,gray);
-    
+    background:linear-gradient(to right, black, gray);
+    color:white;
+    padding:25px;
 }
-
-
-
-
-
 
 .p1{
-    background-color:black;
-    margin:3px;
-    padding:8px;
-    color:white;
-    width:5px;
-   float: center;
+    margin-top:10px;
 }
-nav
-{
-    float:right;  
 
+#searchBox{
+    padding:8px;
+    width:220px;
+    border:1px solid black;
 }
+
+nav{
+    float:right;
+}
+
 nav a{
     color:white;
-    margin: 5px;
-    text-decoration: none;
-    nav
-{
-    float:right;
-    color:white;
+    margin:5px;
+    text-decoration:none;
+}
 
-}
-}
 nav a:hover{
-    text-decoration: underline;
-}
-.av
-{
-    background-color:white;
-    display: inline-block;
-    
+    text-decoration:underline;
 }
 
-div 
-{
+#mainHeading{
     background-color:gray;
     color:black;
-    text-align: center;
-    padding: 30px;
+    text-align:center;
+    padding:30px;
 }
 
-
-section 
-{
-    padding: 10px;
-    text-align: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    margin: 20px;
-    border-radius: 6px;
+section{
+    padding:10px;
+    text-align:center;
+    box-shadow:0 4px 8px rgba(0,0,0,0.2);
+    margin:20px;
+    border-radius:6px;
 }
 
-
-section div 
-{
+section div{
     background-color:silver;
-    border:1px solid black
-    border-color:black;
-    width: 20%;
-    display: inline-block;
-    margin: 5px;
-    padding: 5px;
-    
+    border:1px solid black;
+    width:20%;
+    display:inline-block;
+    margin:5px;
+    padding:10px;
 }
 
-section div img 
-{
-    width: 70%;
-    height: 120px;
-    transition: transform 0.3s ease;
-}
-section div img:hover 
-{
-    transform: scale(1.1);
+section div img{
+    width:70%;
+    height:120px;
+    transition:transform 0.3s ease;
 }
 
-.v1
-{
-    color=white;
-    width: 50%;
-    height: 300px;
+section div img:hover{
+    transform:scale(1.1);
 }
-
-.external-table {
-    margin:auto;
-    width: 40%;
-    background-color: white;
-    text-align: center;
-}
-.external-table th, .external-table td 
-{
-    border: 1px solid black;
-    padding: 8px;
-}
-.external-table th {
-    background-color: gray;
-}
-
 
 .customer{
-    text-align: left;
- margin-left: 300px;
-   margin-right:250px;
-   margin-bottom: 100px;
-    padding: 10px;
-    border: 1px solid black;
-    background-color: lightgray;
+    text-align:left;
+    width:50%;
+    margin:auto;
+    padding:20px;
+    border:1px solid black;
+    background-color:lightgray;
 }
 
+.customer label{
+    display:block;
+    margin-top:10px;
+}
 
+.customer input[type="text"],
+.customer input[type="email"]{
+    width:100%;
+    padding:8px;
+    margin-top:5px;
+}
 
-.customer input:focus,.customer select:focus,.customer textarea:focus
-{
-   
+.customer input:focus{
     outline:none;
     border:1px solid black;
-    background-color: gray;
-
-    
-}
-
-.customer input[type="radio"]
-{
-    width:20px;
+    background-color:#eeeeee;
 }
 
 .customer input[type="submit"],
-.customer input[type="reset"]
-{
+.customer input[type="reset"]{
     background-color:white;
-    color: black;
-    
-    
+    color:black;
+    padding:10px 20px;
+    border:1px solid black;
+    cursor:pointer;
 }
+
 .customer input[type="submit"]:hover,
-
-.customer input[type="reset"]:hover
-{
-   
-    background-color: black;
-    color: white;
-    cursor: pointer;
-    border:none;
-}
-.account-section{
-    padding:30px;
-    
-    
-}
-.account-form
-{
-    background-color: white;
-    padding: 20px;
-    width: 40%;
-    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    margin:auto;
-}
-
-.account-form label
-{
-    display: block;
-    font-weight: bold;
-    margin-top: 20px;
-}
-.account-form input
-{
-    width: 80%;
-    padding: 8px;
-    margin-top:5px;
-}
-.account-form input[type="submit"]
-{
-    margin-top: 15px;
-    background-color:orangered;
+.customer input[type="reset"]:hover{
+    background-color:black;
     color:white;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-}
-.account-form input[type="submit"]:hover {
-    background-color: #d95c16;
 }
 
-
-
-footer 
-{
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 15px;
+footer{
+    background-color:black;
+    color:white;
+    text-align:center;
+    padding:15px;
 }
-
-
-
